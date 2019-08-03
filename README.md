@@ -13,3 +13,14 @@ The prediction will be an ordinal variable. There are 38 features in the dataset
 
 4. Why did you choose this topic?
 I took a course on risk & natural disasters in college, and think the topic is really interesting. I'm curious to see what results come of this.
+
+
+For Check-In #1:
+1. What data have you gathered, and how did you gather it?
+I am not gathering any data myself, and will only be using the data provided by this course
+
+2. How have you explored the data and what insights have you gained as a result?
+
+3. Will you be able to answer your question with this data, or do you need to gather more data (or adjust your question)?
+
+4. What modeling approach are you using to answer your question?
