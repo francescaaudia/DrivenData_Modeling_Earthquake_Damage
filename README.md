@@ -21,6 +21,16 @@ I am not gathering any data myself, and will only be using the data provided by 
 
 2. How have you explored the data and what insights have you gained as a result?
 
+Training features and ordinal value that I'm trying to predict are split up separately. Wondering why this is and if I'm just supposed to do a join.
+
+Checking the data to see if any missing values, improperly formatted values, etc/checking dtypes
+
 3. Will you be able to answer your question with this data, or do you need to gather more data (or adjust your question)?
+Yes (using additional data is not permitted per the competition rules)
 
 4. What modeling approach are you using to answer your question?
+
+To look into ordinal regression
+
+
+In the end, I tried 2 different ordinal regression libraries (bevel & mord), and was not able to get as high of an f1 score with those as with a RandomForestClassifier, so ultimately I went with a RandomForestClassifier model. I struggled with how to best engineer the features, particularly the geographic features that were coded as a sequence of numbers.
